@@ -1,0 +1,22 @@
+{
+  "include": ["../types/**.ts", "**/**.ts", "./.eslintrc.js"],
+  "ts-node": {
+    "require": [
+      "tsconfig-paths/register"
+    ]
+  },
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "NodeNext",
+    "moduleResolution": "nodenext",
+    "composite": true,
+    "baseUrl": "./",
+    "rootDir": "./",
+    "paths": {
+      "*": ["./src/*"],
+    },
+    "types": ["node"],
+    "ignoreDeprecations": "5.0",
+    "strictNullChecks": true,
+  }
+}
