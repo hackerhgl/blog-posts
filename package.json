@@ -9,7 +9,7 @@
     "ts": "ts-node src/flows/index.ts",
     "publish": "ts-node src/scripts/publish.ts",
     "modify": "ts-node src/scripts/modify.ts",
-    "testing": "ts-node src/scripts/testing.ts",
+    "testing": "ts-node src/scripts/testing.ts"
   },
   "author": "hackerhgl",
   "license": "ISC",
